@@ -10,5 +10,5 @@ Possible uses
 * Inspiration for your latest article or book
 * Drowning out annoying relatives, coworkers and fire alarms
 * Reading your children to sleep when you have other things to do
-* Scaring burglars away
+* Scaring burglars and neighbours away
 
