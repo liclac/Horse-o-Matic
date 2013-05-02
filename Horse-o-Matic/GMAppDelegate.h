@@ -8,8 +8,24 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface GMAppDelegate : NSObject <NSApplicationDelegate>
+@interface GMAppDelegate : NSObject <NSApplicationDelegate, NSURLConnectionDataDelegate, NSSpeechSynthesizerDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (retain) NSStatusItem *statusItem;
+@property (assign) IBOutlet NSMenu *menu, *voiceMenu;
+
+@property (retain) NSSpeechSynthesizer *synthesizer;
+@property (assign) BOOL isHorsing;
+
+@property (retain) NSURLConnection *connection;
+@property (retain) NSMutableData *buffer;
+@property (retain) NSMutableArray *paragraphs;
+
+- (void)setupStatusItem;
+- (void)setupVoice;
+
+- (void)fetch;
+
+- (IBAction)startHorsing:(id)sender;
+- (IBAction)stopHorsing:(id)sender;
 
 @end
