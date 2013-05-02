@@ -13,6 +13,8 @@
 		225668F61732A45700137CFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 225668F41732A45700137CFC /* Credits.rtf */; };
 		225668F91732A45700137CFC /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225668F81732A45700137CFC /* GMAppDelegate.m */; };
 		225668FC1732A45700137CFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225668FA1732A45700137CFC /* MainMenu.xib */; };
+		22FD71321732CA80005A4373 /* StatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FD71301732CA80005A4373 /* StatusIcon.png */; };
+		22FD71371732CAB6005A4373 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FD71361732CAB6005A4373 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		225668F71732A45700137CFC /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
 		225668F81732A45700137CFC /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
 		225668FB1732A45700137CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22FD71301732CA80005A4373 /* StatusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusIcon.png; sourceTree = "<group>"; };
+		22FD71361732CAB6005A4373 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				225668F11732A45700137CFC /* main.m */,
 				225668F31732A45700137CFC /* Horse-o-Matic-Prefix.pch */,
 				225668F41732A45700137CFC /* Credits.rtf */,
+				22FD71301732CA80005A4373 /* StatusIcon.png */,
+				22FD71361732CAB6005A4373 /* Icon.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 				225668F01732A45700137CFC /* InfoPlist.strings in Resources */,
 				225668F61732A45700137CFC /* Credits.rtf in Resources */,
 				225668FC1732A45700137CFC /* MainMenu.xib in Resources */,
+				22FD71321732CA80005A4373 /* StatusIcon.png in Resources */,
+				22FD71371732CAB6005A4373 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +238,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -255,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

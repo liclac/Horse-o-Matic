@@ -24,8 +24,12 @@
 
 - (void)setupStatusItem
 {
+	NSImage *statusImage = [NSImage imageNamed:@"StatusIcon"];
+	[statusImage setSize:NSMakeSize(20, 20)];
+	
 	self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-	self.statusItem.title = @"H";
+	//self.statusItem.title = @"H";
+	self.statusItem.image = statusImage;
 	self.statusItem.highlightMode = YES;
 	self.statusItem.menu = self.menu;
 	
@@ -65,11 +69,15 @@
 - (void)startHorsing:(id)sender
 {
 	[self speakNext];
+	[self.startMenuItem setHidden:YES];
+	[self.stopMenuItem setHidden:NO];
 }
 
 - (void)stopHorsing:(id)sender
 {
 	[self.synthesizer stopSpeaking];
+	[self.startMenuItem setHidden:NO];
+	[self.stopMenuItem setHidden:YES];
 }
 
 #pragma mark -
