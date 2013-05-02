@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Horse-o-Matic' target in the 'Horse-o-Matic' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

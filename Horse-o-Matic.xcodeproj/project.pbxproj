@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225668E61732A45700137CFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225668E51732A45700137CFC /* Cocoa.framework */; };
+		225668F01732A45700137CFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225668EE1732A45700137CFC /* InfoPlist.strings */; };
+		225668F21732A45700137CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225668F11732A45700137CFC /* main.m */; };
+		225668F61732A45700137CFC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 225668F41732A45700137CFC /* Credits.rtf */; };
+		225668F91732A45700137CFC /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225668F81732A45700137CFC /* GMAppDelegate.m */; };
+		225668FC1732A45700137CFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225668FA1732A45700137CFC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225668E21732A45700137CFC /* Horse-o-Matic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horse-o-Matic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		225668E51732A45700137CFC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		225668E81732A45700137CFC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		225668E91732A45700137CFC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		225668EA1732A45700137CFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		225668ED1732A45700137CFC /* Horse-o-Matic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Horse-o-Matic-Info.plist"; sourceTree = "<group>"; };
+		225668EF1732A45700137CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		225668F11732A45700137CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		225668F31732A45700137CFC /* Horse-o-Matic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Horse-o-Matic-Prefix.pch"; sourceTree = "<group>"; };
+		225668F51732A45700137CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		225668F71732A45700137CFC /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
+		225668F81732A45700137CFC /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
+		225668FB1732A45700137CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225668DF1732A45700137CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225668E61732A45700137CFC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225668D91732A45700137CFC = {
+			isa = PBXGroup;
+			children = (
+				225668EB1732A45700137CFC /* Horse-o-Matic */,
+				225668E41732A45700137CFC /* Frameworks */,
+				225668E31732A45700137CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		225668E31732A45700137CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				225668E21732A45700137CFC /* Horse-o-Matic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		225668E41732A45700137CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225668E51732A45700137CFC /* Cocoa.framework */,
+				225668E71732A45700137CFC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		225668E71732A45700137CFC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225668E81732A45700137CFC /* AppKit.framework */,
+				225668E91732A45700137CFC /* CoreData.framework */,
+				225668EA1732A45700137CFC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		225668EB1732A45700137CFC /* Horse-o-Matic */ = {
+			isa = PBXGroup;
+			children = (
+				225668F71732A45700137CFC /* GMAppDelegate.h */,
+				225668F81732A45700137CFC /* GMAppDelegate.m */,
+				225668FA1732A45700137CFC /* MainMenu.xib */,
+				225668EC1732A45700137CFC /* Supporting Files */,
+			);
+			path = "Horse-o-Matic";
+			sourceTree = "<group>";
+		};
+		225668EC1732A45700137CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				225668ED1732A45700137CFC /* Horse-o-Matic-Info.plist */,
+				225668EE1732A45700137CFC /* InfoPlist.strings */,
+				225668F11732A45700137CFC /* main.m */,
+				225668F31732A45700137CFC /* Horse-o-Matic-Prefix.pch */,
+				225668F41732A45700137CFC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225668E11732A45700137CFC /* Horse-o-Matic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225668FF1732A45700137CFC /* Build configuration list for PBXNativeTarget "Horse-o-Matic" */;
+			buildPhases = (
+				225668DE1732A45700137CFC /* Sources */,
+				225668DF1732A45700137CFC /* Frameworks */,
+				225668E01732A45700137CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Horse-o-Matic";
+			productName = "Horse-o-Matic";
+			productReference = 225668E21732A45700137CFC /* Horse-o-Matic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225668DA1732A45700137CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MacaroniCode;
+			};
+			buildConfigurationList = 225668DD1732A45700137CFC /* Build configuration list for PBXProject "Horse-o-Matic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 225668D91732A45700137CFC;
+			productRefGroup = 225668E31732A45700137CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225668E11732A45700137CFC /* Horse-o-Matic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		225668E01732A45700137CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225668F01732A45700137CFC /* InfoPlist.strings in Resources */,
+				225668F61732A45700137CFC /* Credits.rtf in Resources */,
+				225668FC1732A45700137CFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225668DE1732A45700137CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225668F21732A45700137CFC /* main.m in Sources */,
+				225668F91732A45700137CFC /* GMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		225668EE1732A45700137CFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225668EF1732A45700137CFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		225668F41732A45700137CFC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225668F51732A45700137CFC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		225668FA1732A45700137CFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225668FB1732A45700137CFC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		225668FD1732A45700137CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		225668FE1732A45700137CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		225669001732A45700137CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse-o-Matic/Horse-o-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Horse-o-Matic/Horse-o-Matic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		225669011732A45700137CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse-o-Matic/Horse-o-Matic-Prefix.pch";
+				INFOPLIST_FILE = "Horse-o-Matic/Horse-o-Matic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225668DD1732A45700137CFC /* Build configuration list for PBXProject "Horse-o-Matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225668FD1732A45700137CFC /* Debug */,
+				225668FE1732A45700137CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225668FF1732A45700137CFC /* Build configuration list for PBXNativeTarget "Horse-o-Matic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225669001732A45700137CFC /* Debug */,
+				225669011732A45700137CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 225668DA1732A45700137CFC /* Project object */;
+}
