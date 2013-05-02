@@ -62,7 +62,7 @@
 		[self.synthesizer startSpeakingString:[self.paragraphs lastObject]];
 		[self.paragraphs removeLastObject];
 		
-		if([self.paragraphs count] == 1) [self fetch];
+		if([self.paragraphs count] <= 1) [self fetch];
 	}
 }
 
@@ -107,10 +107,21 @@
 	NSLog(@"%@", self.paragraphs);
 }
 
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+	[self stopHorsing:nil];
+}
+
 #pragma mark Synthesizer
 - (void)speechSynthesizer:(NSSpeechSynthesizer *)sender didFinishSpeaking:(BOOL)finishedSpeaking
 {
-	if(finishedSpeaking) [self speakNext];
+	[self stopHorsing:nil];
+	if(finishedSpeaking) [self startHorsing:nil];
+}
+
+- (void)speechSynthesizer:(NSSpeechSynthesizer *)sender didEncounterErrorAtIndex:(NSUInteger)characterIndex ofString:(NSString *)string message:(NSString *)message
+{
+	[self stopHorsing:nil];
 }
 
 @end
